@@ -1,9 +1,6 @@
 #include "Header.hpp"
 
 std::vector<double> solve(double a, double b, double c) {
-    if (a == 0) {
-        throw invalid
-    }
     std::vector<double>res;
     double diskr = b * b - 4 * a * c;
 
